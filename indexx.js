@@ -127,10 +127,6 @@ if (coverContainer) {
             `
 }
 
-const focusedTab = document.querySelector('.tab').focus();
-window.addEventListener('load', focusedTab);
-
-
 const tweetsContainer = document.querySelector('.tweets-container');
 if (tweetsContainer) {
     const tweetsMade = paramsValue.tweets
